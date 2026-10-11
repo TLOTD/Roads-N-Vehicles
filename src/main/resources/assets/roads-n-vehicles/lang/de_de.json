@@ -55,6 +55,8 @@
   "block.roads-n-vehicles.manhole_cover": "Gullydeckel",
 
   "block.roads-n-vehicles.iron_rod": "Eisenstange",
+  "block.roads-n-vehicles.iron_rod_corner": "Eisenstangeneck",
+  "block.roads-n-vehicles.iron_rod_corner_decor": "Dekorates Eisenstangeneck",
 
   "block.roads-n-vehicles.town_sign": "Ortsschild",
   "block.roads-n-vehicles.town_sign.ponder": "Halte [%1$s] gedrückt für eine Erklärung",
@@ -143,8 +145,8 @@
   "block.roads-n-vehicles.go_left_or_right_sign": "Vorgeschriebene Fahrtrichtung - Rechts oder Links",
   "block.roads-n-vehicles.pass_left_sign": "Vorgeschriebene Fahrtrichtung - Links Passieren",
   "block.roads-n-vehicles.pass_right_sign": "Vorgeschriebene Fahrtrichtung - Rechts Passieren",
-  "block.roads-n-vehicles.roundabout_sign": "Kreisverkehr",
-  "block.roads-n-vehicles.roundabout_flipped_sign": "Kreisverkehr (Umgedreht)",
+  "block.roads-n-vehicles.roundabout_clockwise_sign": "Kreisverkehr (Uhrzeigersinn)",
+  "block.roads-n-vehicles.roundabout_counter_clockwise_sign": "Kreisverkehr (Gegen den Uhrzeigersinn)",
 
   "block.roads-n-vehicles.no_left_turn_sign": "Linksabbiegen verboten",
   "block.roads-n-vehicles.no_right_turn_sign": "Rechtsabbiegen verboten",
@@ -177,6 +179,8 @@
   "block.roads-n-vehicles.road_narrowing_sign": "Verengte Fahrbahn",
   "block.roads-n-vehicles.road_narrowing_left_sign": "Einseitig Verengte Fahrbahn Links",
   "block.roads-n-vehicles.road_narrowing_right_sign": "Einseitig Verengte Fahrbahn Rechts",
+  "block.roads-n-vehicles.roundabout_clockwise_warning_sign": "Warnung Kreisverkehr (Uhrzeigersinn)",
+  "block.roads-n-vehicles.roundabout_counter_clockwise_warning_sign": "Warnung Kreisverkehr (Gegen den Uhrzeigersinn)",
   "block.roads-n-vehicles.wild_animals_left_sign": "Wildwechsel - Links",
   "block.roads-n-vehicles.wild_animals_right_sign": "Wildwechsel - Rechts",
   "block.roads-n-vehicles.wild_dinosaurs_sign": "Wilde Dinos",
@@ -197,6 +201,8 @@
   "block.roads-n-vehicles.gritty_road_edge_sign": "Rollsplitt",
   "block.roads-n-vehicles.traffic_jams_sign": "Stau",
   "block.roads-n-vehicles.riverbank_sign": "Ufer",
+
+  "block.roads-n-vehicles.sniper_at_work_sign": "Scharfschütze bei der Arbeit (Irland)",
 
   "block.roads-n-vehicles.small_square_sign": "Kleines Rechtecksschild",
   "block.roads-n-vehicles.priority_road_left_sign": "Abbiegende Vorfahrtsstaße - Links",
@@ -323,7 +329,31 @@
   "block.roads-n-vehicles.police_lights": "Polizeilichter",
 
   "block.roads-n-vehicles.traffic_light": "Ampel",
+  "block.roads-n-vehicles.traffic_light_left": "Ampel - Links",
+  "block.roads-n-vehicles.traffic_light_right": "Ampel - Rechts",
+  "block.roads-n-vehicles.traffic_light_straight": "Ampel - Geradeaus",
+  "block.roads-n-vehicles.traffic_light_straight_left": "Ampel - Geradeaus & Links",
+  "block.roads-n-vehicles.traffic_light_straight_right": "Ampel - Geradeaus & Rechts",
+
+  "block.roads-n-vehicles.traffic_light_green_arrow_left": "Ampel - Grünpfeil Links",
+  "block.roads-n-vehicles.traffic_light_green_arrow_right": "Ampel - Grünpfeil Rechts",
+
+  "block.roads-n-vehicles.horizontal_traffic_light": "Horizontale Ampel",
+
+  "block.roads-n-vehicles.small_traffic_light": "Zweifeld-Ampel",
+  "block.roads-n-vehicles.pedestrian_signal": "Fußgängerampel",
+
   "block.roads-n-vehicles.yellow_traffic_light": "Gelbe Ampel",
+  "block.roads-n-vehicles.yellow_traffic_light_left": "Gelbe Ampel - Links",
+  "block.roads-n-vehicles.yellow_traffic_light_right": "Gelbe Ampel - Rechts",
+  "block.roads-n-vehicles.yellow_traffic_light_straight": "Gelbe Ampel - Geradeaus",
+  "block.roads-n-vehicles.yellow_traffic_light_straight_left": "Gelbe Ampel  - Geradeaus & Links",
+  "block.roads-n-vehicles.yellow_traffic_light_straight_right": "Gelbe Ampel - Geradeaus & Rechts",
+
+  "block.roads-n-vehicles.yellow_horizontal_traffic_light": "Gelbe Horizontale Ampel",
+
+  "block.roads-n-vehicles.japanese_horizontal_traffic_light": "Horizontale Ampel (Japan)",
+
   "block.roads-n-vehicles.traffic_light_controller": "Ampelsteuereinheit",
   "block.roads-n-vehicles.traffic_light_controller.tooltip": "Nimmt ein Redstonesignal um nächste",
   "block.roads-n-vehicles.traffic_light_controller.tooltip_2": "überliegende Ampel abzuändern:",
@@ -331,6 +361,9 @@
   "block.roads-n-vehicles.traffic_light_controller.tooltip_4": "4-7: Rot & Gelb",
   "block.roads-n-vehicles.traffic_light_controller.tooltip_5": "8-11: Grün",
   "block.roads-n-vehicles.traffic_light_controller.tooltip_6": "12-15: Gelb",
+
+  "block.roads-n-vehicles.variable-message_sign": "Wechselverkehrszeichen",
+  "block.roads-n-vehicles.variable-message_sign_controller": "Wechselverkehrszeichensteuereinheit",
 
   "block.roads-n-vehicles.fire_hydrant": "Hydrant",
   "block.roads-n-vehicles.fire_hydrant.tooltip": "Wenn mit Eimer interagiert:",

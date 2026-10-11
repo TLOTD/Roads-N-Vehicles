@@ -64,6 +64,8 @@
   "block.roads-n-vehicles.manhole_cover": "Manhole Cover",
 
   "block.roads-n-vehicles.iron_rod": "Iron Rod",
+  "block.roads-n-vehicles.iron_rod_corner": "Iron Rod Corner",
+  "block.roads-n-vehicles.iron_rod_corner_decor": "Decorated Iron Rod Corner",
 
   "block.roads-n-vehicles.town_sign": "Town Sign",
   "block.roads-n-vehicles.town_sign.ponder": "Hold [%1$s] for an explanation",
@@ -152,8 +154,8 @@
   "block.roads-n-vehicles.go_left_or_right_sign": "Go Left or Right Sign",
   "block.roads-n-vehicles.pass_left_sign": "Pass Left Sign",
   "block.roads-n-vehicles.pass_right_sign": "Pass Right Sign",
-  "block.roads-n-vehicles.roundabout_sign": "Roundabout Sign",
-  "block.roads-n-vehicles.roundabout_flipped_sign": "Roundabout Sign (Flipped)",
+  "block.roads-n-vehicles.roundabout_clockwise_sign": "Roundabout Sign (Clockwise)",
+  "block.roads-n-vehicles.roundabout_counter_clockwise_sign": "Roundabout Sign (Counter Clockwise)",
 
   "block.roads-n-vehicles.no_left_turn_sign": "No Left Turn Sign",
   "block.roads-n-vehicles.no_right_turn_sign": "No Right Turn Sign",
@@ -186,6 +188,8 @@
   "block.roads-n-vehicles.road_narrowing_sign": "Road Narrowing Sign",
   "block.roads-n-vehicles.road_narrowing_left_sign": "Road Narrowing Sign (Left)",
   "block.roads-n-vehicles.road_narrowing_right_sign": "Road Narrowing Sign (Right)",
+  "block.roads-n-vehicles.roundabout_clockwise_warning_sign": "Roundabout Warning Sign (Clockwise)",
+  "block.roads-n-vehicles.roundabout_counter_clockwise_warning_sign": "Roundabout Warning Sign (Counter Clockwise)",
   "block.roads-n-vehicles.wild_animals_left_sign": "Wild Animals Sign (Left)",
   "block.roads-n-vehicles.wild_animals_right_sign": "Wild Animals Sign (Right)",
   "block.roads-n-vehicles.wild_dinosaurs_sign": "Wild Dinosaurs Sign",
@@ -206,6 +210,8 @@
   "block.roads-n-vehicles.gritty_road_edge_sign": "Gritty Road Edge Sign",
   "block.roads-n-vehicles.traffic_jams_sign": "Traffic Jams Sign",
   "block.roads-n-vehicles.riverbank_sign": "Riverbank Sign",
+
+  "block.roads-n-vehicles.sniper_at_work_sign": "Sniper At Work Sign (Éire)",
 
   "block.roads-n-vehicles.small_square_sign": "Small Square Sign",
   "block.roads-n-vehicles.priority_road_left_sign": "Priority Road Left Sign",
@@ -332,7 +338,31 @@
   "block.roads-n-vehicles.speed_camera": "Speed Camera",
 
   "block.roads-n-vehicles.traffic_light": "Traffic Light",
+  "block.roads-n-vehicles.traffic_light_left": "Traffic Light - Left",
+  "block.roads-n-vehicles.traffic_light_right": "Traffic Light - Right",
+  "block.roads-n-vehicles.traffic_light_straight": "Traffic Light - Straight",
+  "block.roads-n-vehicles.traffic_light_straight_left": "Traffic Light - Straight & Left",
+  "block.roads-n-vehicles.traffic_light_straight_right": "Traffic Light - Straight & Right",
+
+  "block.roads-n-vehicles.traffic_light_green_arrow_left": "Traffic Light - Left Turn On Red",
+  "block.roads-n-vehicles.traffic_light_green_arrow_right": "Traffic Light - Right Turn On Red",
+
+  "block.roads-n-vehicles.horizontal_traffic_light": "Horizontal Traffic Light",
+
+  "block.roads-n-vehicles.small_traffic_light": "Small Traffic Light",
+  "block.roads-n-vehicles.pedestrian_signal": "Pedestrian Signal",
+
   "block.roads-n-vehicles.yellow_traffic_light": "Yellow Traffic Light",
+  "block.roads-n-vehicles.yellow_traffic_light_left": "Yellow Traffic Light - Left",
+  "block.roads-n-vehicles.yellow_traffic_light_right": "Yellow Traffic Light - Right",
+  "block.roads-n-vehicles.yellow_traffic_light_straight": "Yellow Traffic Light - Straight",
+  "block.roads-n-vehicles.yellow_traffic_light_straight_left": "Yellow Traffic Light  - Straight & Left",
+  "block.roads-n-vehicles.yellow_traffic_light_straight_right": "Yellow Traffic Light - Straight & Right",
+
+  "block.roads-n-vehicles.yellow_horizontal_traffic_light": "Yellow Horizontal Traffic Light",
+
+  "block.roads-n-vehicles.japanese_horizontal_traffic_light": "Horizontal Traffic Light (Japan)",
+
   "block.roads-n-vehicles.traffic_light_controller": "Traffic Light Controller",
   "block.roads-n-vehicles.traffic_light_controller.tooltip": "Takes Redstone signal to",
   "block.roads-n-vehicles.traffic_light_controller.tooltip_2": "change nearest light above:",
@@ -340,6 +370,9 @@
   "block.roads-n-vehicles.traffic_light_controller.tooltip_4": "4-7: Red & Yellow",
   "block.roads-n-vehicles.traffic_light_controller.tooltip_5": "8-11: Green",
   "block.roads-n-vehicles.traffic_light_controller.tooltip_6": "12-15: Yellow",
+
+  "block.roads-n-vehicles.variable-message_sign": "Variable-Message Sign",
+  "block.roads-n-vehicles.variable-message_sign_controller": "Variable-Message Sign Controller",
 
   "block.roads-n-vehicles.fire_hydrant": "Fire Hydrant",
   "block.roads-n-vehicles.fire_hydrant.tooltip": "When interacted with Bucket:",

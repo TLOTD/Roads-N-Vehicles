@@ -2,6 +2,6 @@
 	"parent": "roads-n-vehicles:block/traffic_light",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "roads-n-vehicles:block/traffic_light/yellow_off"
+		"base": "roads-n-vehicles:block/traffic_light/base_yellow"
 	}
 }

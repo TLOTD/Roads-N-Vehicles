@@ -1,0 +1,75 @@
+{
+	"credit": "Made by Isla_Nublar for the TLOTD Mod (https://tlotd.net)",
+	"textures": {
+		"iron_rod": "block/iron_bars",
+		"decor": "roads-n-vehicles:block/empty",
+		"particle": "block/iron_bars"
+	},
+	"elements": [
+		{
+			"from": [7, 7, 7],
+			"to": [16, 9, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 7, 7]},
+			"faces": {
+				"north": {"uv": [7, 7, 9, 16], "rotation": 90, "texture": "#iron_rod"},
+				"east": {"uv": [7, 7, 9, 9], "texture": "#iron_rod"},
+				"south": {"uv": [7, 0, 9, 9], "rotation": 90, "texture": "#iron_rod"},
+				"west": {"uv": [7, 7, 9, 9], "texture": "#iron_rod"},
+				"up": {"uv": [7, 0, 9, 9], "rotation": 90, "texture": "#iron_rod"},
+				"down": {"uv": [7, 7, 9, 16], "rotation": 270, "texture": "#iron_rod"}
+			}
+		},
+		{
+			"from": [7, 0, 7],
+			"to": [9, 7, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 7]},
+			"faces": {
+				"north": {"uv": [7, 9, 9, 16], "texture": "#iron_rod"},
+				"east": {"uv": [7, 9, 9, 16], "texture": "#iron_rod"},
+				"south": {"uv": [7, 9, 9, 16], "texture": "#iron_rod"},
+				"west": {"uv": [7, 9, 9, 16], "texture": "#iron_rod"},
+				"down": {"uv": [7, 7, 9, 9], "texture": "#iron_rod"}
+			}
+		},
+		{
+			"from": [9, 0, 8],
+			"to": [16, 7, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 7, 7], "texture": "#decor"},
+				"south": {"uv": [0, 7, 7, 14], "texture": "#decor"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 135, 0],
+			"translation": [0, 1.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 135, 0],
+			"translation": [0, 1.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 135, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 135, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, -135, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"fixed": {
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}

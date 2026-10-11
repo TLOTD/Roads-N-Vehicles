@@ -102,6 +102,11 @@ public class ModBlocks {
 
     public static final Block IRON_ROD = registerBlock("iron_rod",
             ModRodBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL).noOcclusion());
+    public static final Block IRON_ROD_CORNER = registerBlock("iron_rod_corner",
+            CornerRodBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL).noOcclusion());
+    public static final Block IRON_ROD_CORNER_DECOR = registerBlock("iron_rod_corner_decor",
+            CornerRodBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL).noOcclusion());
+
     public static final Block GUARDRAIL = registerBlock("guardrail",
             GuardrailBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops().strength(2.0F, 3.0F).sound(SoundType.METAL).noOcclusion());
     public static final Block GUARDRAIL_OUTER_CORNER = registerBlock("guardrail_outer_corner",
@@ -233,9 +238,9 @@ public class ModBlocks {
             SignBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops().strength(2.0F, 3.0F).sound(SoundType.METAL).noOcclusion());
     public static final Block PASS_RIGHT_SIGN = registerBlock("pass_right_sign",
             SignBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops().strength(2.0F, 3.0F).sound(SoundType.METAL).noOcclusion());
-    public static final Block ROUNDABOUT_SIGN = registerBlock("roundabout_sign",
+    public static final Block ROUNDABOUT_CLOCKWISE_SIGN = registerBlock("roundabout_clockwise_sign",
             SignBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops().strength(2.0F, 3.0F).sound(SoundType.METAL).noOcclusion());
-    public static final Block ROUNDABOUT_FLIPPED_SIGN = registerBlock("roundabout_flipped_sign",
+    public static final Block ROUNDABOUT_COUNTER_CLOCKWISE_SIGN = registerBlock("roundabout_counter_clockwise_sign",
             SignBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops().strength(2.0F, 3.0F).sound(SoundType.METAL).noOcclusion());
 
     public static final Block NO_LEFT_TURN_SIGN = registerBlock("no_left_turn_sign",
@@ -300,6 +305,10 @@ public class ModBlocks {
             SignBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops().strength(2.0F, 3.0F).sound(SoundType.METAL).noOcclusion());
     public static final Block ROAD_NARROWING_RIGHT_SIGN = registerBlock("road_narrowing_right_sign",
             SignBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops().strength(2.0F, 3.0F).sound(SoundType.METAL).noOcclusion());
+    public static final Block ROUNDABOUT_CLOCKWISE_WARNING_SIGN = registerBlock("roundabout_clockwise_warning_sign",
+            SignBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops().strength(2.0F, 3.0F).sound(SoundType.METAL).noOcclusion());
+    public static final Block ROUNDABOUT_COUNTER_CLOCKWISE_WARNING_SIGN = registerBlock("roundabout_counter_clockwise_warning_sign",
+            SignBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops().strength(2.0F, 3.0F).sound(SoundType.METAL).noOcclusion());
     public static final Block WILD_ANIMALS_LEFT_SIGN = registerBlock("wild_animals_left_sign",
             SignBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops().strength(2.0F, 3.0F).sound(SoundType.METAL).noOcclusion());
     public static final Block WILD_ANIMALS_RIGHT_SIGN = registerBlock("wild_animals_right_sign",
@@ -338,6 +347,9 @@ public class ModBlocks {
     public static final Block TRAFFIC_JAMS_SIGN = registerBlock("traffic_jams_sign",
             SignBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops().strength(2.0F, 3.0F).sound(SoundType.METAL).noOcclusion());
     public static final Block RIVERBANK_SIGN = registerBlock("riverbank_sign",
+            SignBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops().strength(2.0F, 3.0F).sound(SoundType.METAL).noOcclusion());
+
+    public static final Block SNIPER_AT_WORK_SIGN = registerBlock("sniper_at_work_sign",
             SignBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops().strength(2.0F, 3.0F).sound(SoundType.METAL).noOcclusion());
 
     public static final Block SMALL_SQUARE_SIGN = registerBlock("small_square_sign",
@@ -563,9 +575,55 @@ public class ModBlocks {
 
     public static final Block TRAFFIC_LIGHT = registerBlock("traffic_light",
             TrafficLightBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops().strength(2.0F, 3.0F));
+    public static final Block TRAFFIC_LIGHT_LEFT = registerBlock("traffic_light_left",
+            TrafficLightBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops().strength(2.0F, 3.0F));
+    public static final Block TRAFFIC_LIGHT_RIGHT = registerBlock("traffic_light_right",
+            TrafficLightBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops().strength(2.0F, 3.0F));
+    public static final Block TRAFFIC_LIGHT_STRAIGHT = registerBlock("traffic_light_straight",
+            TrafficLightBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops().strength(2.0F, 3.0F));
+    public static final Block TRAFFIC_LIGHT_STRAIGHT_LEFT = registerBlock("traffic_light_straight_left",
+            TrafficLightBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops().strength(2.0F, 3.0F));
+    public static final Block TRAFFIC_LIGHT_STRAIGHT_RIGHT = registerBlock("traffic_light_straight_right",
+            TrafficLightBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops().strength(2.0F, 3.0F));
+
+    public static final Block TRAFFIC_LIGHT_GREEN_ARROW_LEFT = registerBlock("traffic_light_green_arrow_left",
+            TrafficLightBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops().strength(2.0F, 3.0F));
+    public static final Block TRAFFIC_LIGHT_GREEN_ARROW_RIGHT = registerBlock("traffic_light_green_arrow_right",
+            TrafficLightBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops().strength(2.0F, 3.0F));
+
+    public static final Block HORIZONTAL_TRAFFIC_LIGHT = registerBlock("horizontal_traffic_light",
+            HorizontalTrafficLightBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops().strength(2.0F, 3.0F));
+
+    public static final Block SMALL_TRAFFIC_LIGHT = registerBlock("small_traffic_light",
+            SmallTrafficLightBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops().strength(2.0F, 3.0F));
+    public static final Block PEDESTRIAN_SIGNAL = registerBlock("pedestrian_signal",
+            SmallTrafficLightBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops().strength(2.0F, 3.0F));
+
     public static final Block YELLOW_TRAFFIC_LIGHT = registerBlock("yellow_traffic_light",
-            TrafficLightBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_YELLOW).requiresCorrectToolForDrops().strength(2.0F, 3.0F));
+            TrafficLightBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops().strength(2.0F, 3.0F));
+    public static final Block YELLOW_TRAFFIC_LIGHT_LEFT = registerBlock("yellow_traffic_light_left",
+            TrafficLightBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops().strength(2.0F, 3.0F));
+    public static final Block YELLOW_TRAFFIC_LIGHT_RIGHT = registerBlock("yellow_traffic_light_right",
+            TrafficLightBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops().strength(2.0F, 3.0F));
+    public static final Block YELLOW_TRAFFIC_LIGHT_STRAIGHT = registerBlock("yellow_traffic_light_straight",
+            TrafficLightBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops().strength(2.0F, 3.0F));
+    public static final Block YELLOW_TRAFFIC_LIGHT_STRAIGHT_LEFT = registerBlock("yellow_traffic_light_straight_left",
+            TrafficLightBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops().strength(2.0F, 3.0F));
+    public static final Block YELLOW_TRAFFIC_LIGHT_STRAIGHT_RIGHT = registerBlock("yellow_traffic_light_straight_right",
+            TrafficLightBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops().strength(2.0F, 3.0F));
+
+    public static final Block YELLOW_HORIZONTAL_TRAFFIC_LIGHT = registerBlock("yellow_horizontal_traffic_light",
+            HorizontalTrafficLightBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops().strength(2.0F, 3.0F));
+
+    public static final Block JAPANESE_HORIZONTAL_TRAFFIC_LIGHT = registerBlock("japanese_horizontal_traffic_light",
+            HorizontalTrafficLightBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops().strength(2.0F, 3.0F));
+
     public static final Block TRAFFIC_LIGHT_CONTROLLER = registerBlock("traffic_light_controller",
+            TrafficLightControllerBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops().strength(2.0F, 3.0F));
+
+    public static final Block VARIABLE_MESSAGE_SIGN = registerBlock("variable-message_sign",
+            TrafficLightControllerBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops().strength(2.0F, 3.0F));
+    public static final Block VARIABLE_MESSAGE_SIGN_CONTROLLER = registerBlock("variable-message_sign_controller",
             TrafficLightControllerBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops().strength(2.0F, 3.0F));
 
     public static final Block SPEED_CAMERA = registerBlock("speed_camera",

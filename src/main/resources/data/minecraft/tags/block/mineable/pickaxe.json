@@ -46,6 +46,8 @@
     "roads-n-vehicles:manhole_cover",
 
     "roads-n-vehicles:iron_rod",
+    "roads-n-vehicles:iron_rod_corner",
+    "roads-n-vehicles:iron_rod_corner_decor",
 
     "roads-n-vehicles:town_sign",
     "roads-n-vehicles:coat_of_arms",
@@ -105,8 +107,8 @@
     "roads-n-vehicles:go_left_or_right_sign",
     "roads-n-vehicles:pass_left_sign",
     "roads-n-vehicles:pass_right_sign",
-    "roads-n-vehicles:roundabout_sign",
-    "roads-n-vehicles:roundabout_flipped_sign",
+    "roads-n-vehicles:roundabout_clockwise_sign",
+    "roads-n-vehicles:roundabout_counter_clockwise_sign",
 
     "roads-n-vehicles:no_left_turn_sign",
     "roads-n-vehicles:no_right_turn_sign",
@@ -141,6 +143,8 @@
     "roads-n-vehicles:road_narrowing_sign",
     "roads-n-vehicles:road_narrowing_left_sign",
     "roads-n-vehicles:road_narrowing_right_sign",
+    "roads-n-vehicles:roundabout_clockwise_warning_sign",
+    "roads-n-vehicles:roundabout_counter_clockwise_warning_sign",
     "roads-n-vehicles:wild_animals_left_sign",
     "roads-n-vehicles:wild_animals_right_sign",
     "roads-n-vehicles:wild_dinosaurs_sign",
@@ -161,6 +165,8 @@
     "roads-n-vehicles:gritty_road_edge_sign",
     "roads-n-vehicles:traffic_jams_sign",
     "roads-n-vehicles:riverbank_sign",
+
+    "roads-n-vehicles:sniper_at_work_sign",
 
     "roads-n-vehicles:small_square_sign",
     "roads-n-vehicles:priority_road_left_sign",
@@ -286,7 +292,34 @@
     "roads-n-vehicles:traffic_cone",
 
     "roads-n-vehicles:traffic_light",
+    "roads-n-vehicles:traffic_light_left",
+    "roads-n-vehicles:traffic_light_right",
+    "roads-n-vehicles:traffic_light_straight",
+    "roads-n-vehicles:traffic_light_straight_left",
+    "roads-n-vehicles:traffic_light_straight_right",
+
+    "roads-n-vehicles:traffic_light_green_arrow_left",
+    "roads-n-vehicles:traffic_light_green_arrow_right",
+
+    "roads-n-vehicles:horizontal_traffic_light",
+
+    "roads-n-vehicles:small_traffic_light",
+    "roads-n-vehicles:pedestrian_signal",
+
     "roads-n-vehicles:yellow_traffic_light",
-    "roads-n-vehicles:traffic_light_controller"
+    "roads-n-vehicles:yellow_traffic_light_left",
+    "roads-n-vehicles:yellow_traffic_light_right",
+    "roads-n-vehicles:yellow_traffic_light_straight",
+    "roads-n-vehicles:yellow_traffic_light_straight_left",
+    "roads-n-vehicles:yellow_traffic_light_straight_right",
+
+    "roads-n-vehicles:yellow_horizontal_traffic_light",
+
+    "roads-n-vehicles:japanese_horizontal_traffic_light",
+
+    "roads-n-vehicles:traffic_light_controller",
+
+    "roads-n-vehicles:variable-message_sign",
+    "roads-n-vehicles:variable-message_sign_controller"
   ]
 }

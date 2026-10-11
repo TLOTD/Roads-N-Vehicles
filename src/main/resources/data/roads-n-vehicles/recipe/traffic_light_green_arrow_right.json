@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "#roads-n-vehicles:traffic_lights",
+  "result": {
+    "count": 1,
+    "id": "roads-n-vehicles:traffic_light_green_arrow_right"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "roads-n-vehicles:iron_rod",
+    "roads-n-vehicles:iron_rod_corner",
+    "roads-n-vehicles:iron_rod_corner_decor"
+  ]
+}

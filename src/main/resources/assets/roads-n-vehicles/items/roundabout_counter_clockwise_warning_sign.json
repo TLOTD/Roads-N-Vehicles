@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "roads-n-vehicles:block/roundabout_counter_clockwise_warning_sign"
+  }
+}
