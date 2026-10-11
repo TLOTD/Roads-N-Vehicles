@@ -20,15 +20,15 @@ fabricApi {
 }
 
 dependencies {
-	compileOnly files("libs/tlotd-0.4.1+26.1.2-api.jar")
+	compileOnly files("libs/tlotd-0.4.1+26.2.X-api.jar")
 	// To change the versions see the gradle.properties file
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
 	implementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
-	implementation "maven.modrinth:u6dRKJwZ:cNc3uV8m"
-	implementation "maven.modrinth:nvQzSEkH:fW2xykin"
+	implementation "maven.modrinth:u6dRKJwZ:AFgObZjc"
+	implementation "maven.modrinth:nvQzSEkH:ue8CO97w"
 }
 
 processResources {
