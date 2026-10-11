@@ -1,0 +1,6 @@
+{
+	"parent": "roads-n-vehicles:block/iron_rod_corner",
+	"textures": {
+		"decor": "roads-n-vehicles:block/iron_rod_corner_decor"
+	}
+}

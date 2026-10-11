@@ -58,8 +58,8 @@
     "roads-n-vehicles:go_left_or_right_sign",
     "roads-n-vehicles:pass_left_sign",
     "roads-n-vehicles:pass_right_sign",
-    "roads-n-vehicles:roundabout_sign",
-    "roads-n-vehicles:roundabout_flipped_sign",
+    "roads-n-vehicles:roundabout_clockwise_sign",
+    "roads-n-vehicles:roundabout_counter_clockwise_sign",
 
     "roads-n-vehicles:no_left_turn_sign",
     "roads-n-vehicles:no_right_turn_sign",
@@ -94,6 +94,8 @@
     "roads-n-vehicles:road_narrowing_sign",
     "roads-n-vehicles:road_narrowing_left_sign",
     "roads-n-vehicles:road_narrowing_right_sign",
+    "roads-n-vehicles:roundabout_clockwise_warning_sign",
+    "roads-n-vehicles:roundabout_counter_clockwise_warning_sign",
     "roads-n-vehicles:wild_animals_left_sign",
     "roads-n-vehicles:wild_animals_right_sign",
     "roads-n-vehicles:wild_dinosaurs_sign",
@@ -114,6 +116,8 @@
     "roads-n-vehicles:gritty_road_edge_sign",
     "roads-n-vehicles:traffic_jams_sign",
     "roads-n-vehicles:riverbank_sign",
+
+    "roads-n-vehicles:sniper_at_work_sign",
 
     "roads-n-vehicles:small_square_sign",
     "roads-n-vehicles:priority_road_left_sign",

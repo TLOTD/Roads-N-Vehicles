@@ -28,7 +28,6 @@ public class FireHydrantBlock extends SignBlock {
 
     public FireHydrantBlock(BlockBehaviour.Properties properties) {
         super(properties);
-        this.registerDefaultState(this.defaultBlockState().setValue(FACING, net.minecraft.core.Direction.NORTH).setValue(WATERLOGGED, false));
     }
 
     private static final net.minecraft.world.phys.shapes.VoxelShape BASE_SHAPE = Block.box(5, 0, 5, 11, 16, 11);

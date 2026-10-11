@@ -1,0 +1,8 @@
+{
+	"parent": "roads-n-vehicles:block/small_traffic_light",
+	"texture_size": [32, 32],
+	"textures": {
+		"iron_rod": "block/iron_bars",
+		"phase": "roads-n-vehicles:block/traffic_light/phase_small_red"
+	}
+}

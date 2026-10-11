@@ -15,7 +15,6 @@ public class TrafficConeBlock extends SignBlock {
 
     public TrafficConeBlock(BlockBehaviour.Properties properties) {
         super(properties);
-        this.registerDefaultState(this.defaultBlockState().setValue(FACING, Direction.NORTH).setValue(WATERLOGGED, false));
     }
 
     private static final VoxelShape BASE_SHAPE = Shapes.or(

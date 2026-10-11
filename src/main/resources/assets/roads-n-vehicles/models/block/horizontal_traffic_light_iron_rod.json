@@ -1,0 +1,6 @@
+{
+	"parent": "roads-n-vehicles:block/horizontal_traffic_light",
+	"textures": {
+		"iron_rod": "block/iron_bars"
+	}
+}

@@ -1,7 +1,6 @@
 package net.tlotd.roads_n_vehicles.block.custom;
 
 import net.minecraft.core.BlockPos;
-import net.minecraft.core.Direction;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -14,7 +13,6 @@ public class HorizontalSignBlock extends SignBlock {
 
     public HorizontalSignBlock(BlockBehaviour.Properties properties) {
         super(properties);
-        this.registerDefaultState(this.defaultBlockState().setValue(FACING, Direction.NORTH).setValue(WATERLOGGED, false));
     }
 
     public static final VoxelShape BASE_SHAPE = Block.box(7, 0, 7, 9, 16, 9);

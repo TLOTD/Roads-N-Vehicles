@@ -2,7 +2,7 @@
   "type": "minecraft:stonecutting",
   "count": 1,
   "ingredient": {
-    "item": "roads-n-vehicles:traffic_light"
+    "tag": "roads-n-vehicles:traffic_lights"
   },
   "result": "roads-n-vehicles:yellow_traffic_light"
 }

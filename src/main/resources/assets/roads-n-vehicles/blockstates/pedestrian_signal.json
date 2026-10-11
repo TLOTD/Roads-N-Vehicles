@@ -1,0 +1,29 @@
+{
+  "variants": {
+    "facing=north,stage=0,iron_rod=false": {"model": "roads-n-vehicles:block/pedestrian_signal","y": 180},
+    "facing=east,stage=0,iron_rod=false": {"model": "roads-n-vehicles:block/pedestrian_signal","y": 270},
+    "facing=south,stage=0,iron_rod=false": {"model": "roads-n-vehicles:block/pedestrian_signal"},
+    "facing=west,stage=0,iron_rod=false": {"model": "roads-n-vehicles:block/pedestrian_signal","y": 90},
+    "facing=north,stage=1,iron_rod=false": {"model": "roads-n-vehicles:block/pedestrian_signal_red","y": 180},
+    "facing=east,stage=1,iron_rod=false": {"model": "roads-n-vehicles:block/pedestrian_signal_red","y": 270},
+    "facing=south,stage=1,iron_rod=false": {"model": "roads-n-vehicles:block/pedestrian_signal_red"},
+    "facing=west,stage=1,iron_rod=false": {"model": "roads-n-vehicles:block/pedestrian_signal_red","y": 90},
+    "facing=north,stage=2,iron_rod=false": {"model": "roads-n-vehicles:block/pedestrian_signal_green","y": 180},
+    "facing=east,stage=2,iron_rod=false": {"model": "roads-n-vehicles:block/pedestrian_signal_green","y": 270},
+    "facing=south,stage=2,iron_rod=false": {"model": "roads-n-vehicles:block/pedestrian_signal_green"},
+    "facing=west,stage=2,iron_rod=false": {"model": "roads-n-vehicles:block/pedestrian_signal_green","y": 90},
+
+    "facing=north,stage=0,iron_rod=true": {"model": "roads-n-vehicles:block/pedestrian_signal_iron_rod","y": 180},
+    "facing=east,stage=0,iron_rod=true": {"model": "roads-n-vehicles:block/pedestrian_signal_iron_rod","y": 270},
+    "facing=south,stage=0,iron_rod=true": {"model": "roads-n-vehicles:block/pedestrian_signal_iron_rod"},
+    "facing=west,stage=0,iron_rod=true": {"model": "roads-n-vehicles:block/pedestrian_signal_iron_rod","y": 90},
+    "facing=north,stage=1,iron_rod=true": {"model": "roads-n-vehicles:block/pedestrian_signal_iron_rod_red","y": 180},
+    "facing=east,stage=1,iron_rod=true": {"model": "roads-n-vehicles:block/pedestrian_signal_iron_rod_red","y": 270},
+    "facing=south,stage=1,iron_rod=true": {"model": "roads-n-vehicles:block/pedestrian_signal_iron_rod_red"},
+    "facing=west,stage=1,iron_rod=true": {"model": "roads-n-vehicles:block/pedestrian_signal_iron_rod_red","y": 90},
+    "facing=north,stage=2,iron_rod=true": {"model": "roads-n-vehicles:block/pedestrian_signal_iron_rod_green","y": 180},
+    "facing=east,stage=2,iron_rod=true": {"model": "roads-n-vehicles:block/pedestrian_signal_iron_rod_green","y": 270},
+    "facing=south,stage=2,iron_rod=true": {"model": "roads-n-vehicles:block/pedestrian_signal_iron_rod_green"},
+    "facing=west,stage=2,iron_rod=true": {"model": "roads-n-vehicles:block/pedestrian_signal_iron_rod_green","y": 90}
+  }
+}

@@ -14,7 +14,6 @@ public class SpeedCameraBlock extends SignBlock {
 
     public SpeedCameraBlock(Properties properties) {
         super(properties);
-        this.registerDefaultState(this.defaultBlockState().setValue(FACING, Direction.NORTH).setValue(WATERLOGGED, false));
     }
 
     private static final VoxelShape BASE_SHAPE = Block.box(1, 13, 1, 15, 14, 15);

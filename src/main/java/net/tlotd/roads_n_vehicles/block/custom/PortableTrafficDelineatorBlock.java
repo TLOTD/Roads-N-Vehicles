@@ -15,7 +15,6 @@ public class PortableTrafficDelineatorBlock extends SignBlock {
 
     public PortableTrafficDelineatorBlock(BlockBehaviour.Properties properties) {
         super(properties);
-        this.registerDefaultState(this.defaultBlockState().setValue(FACING, Direction.NORTH).setValue(WATERLOGGED, false));
     }
 
     private static final VoxelShape Z_SHAPE = Shapes.or(
