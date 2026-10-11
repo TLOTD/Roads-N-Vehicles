@@ -1,0 +1,7 @@
+{
+	"parent": "roads-n-vehicles:block/small_traffic_light",
+	"texture_size": [32, 32],
+	"textures": {
+		"phase": "roads-n-vehicles:block/traffic_light/phase_pedestrian_red"
+	}
+}

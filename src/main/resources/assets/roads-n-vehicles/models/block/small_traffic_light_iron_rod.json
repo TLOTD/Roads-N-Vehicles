@@ -1,0 +1,7 @@
+{
+	"parent": "roads-n-vehicles:block/small_traffic_light",
+	"texture_size": [32, 32],
+	"textures": {
+		"iron_rod": "block/iron_bars"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"parent": "roads-n-vehicles:block/traffic_light",
+	"texture_size": [32, 32],
+	"textures": {
+		"base": "roads-n-vehicles:block/traffic_light/base_yellow",
+		"phase": "roads-n-vehicles:block/traffic_light/phase_green_straight_right"
+	}
+}

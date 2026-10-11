@@ -84,6 +84,9 @@ public class ModItemGroups {
                         output.accept(ModBlocks.MANHOLE_COVER);
 
                         output.accept(ModBlocks.IRON_ROD);
+                        output.accept(ModBlocks.IRON_ROD_CORNER);
+                        output.accept(ModBlocks.IRON_ROD_CORNER_DECOR);
+
                         output.accept(ModBlocks.GUARDRAIL);
                         output.accept(ModBlocks.GUARDRAIL_OUTER_CORNER);
                         output.accept(ModBlocks.GUARDRAIL_INNER_CORNER);
@@ -136,6 +139,7 @@ public class ModItemGroups {
                         output.accept(ModBlocks.END_NO_HEAVY_OVERTAKING_SIGN);
                         output.accept(ModBlocks.NO_STOPPING_SIGN);
                         output.accept(ModBlocks.NO_PARKING_SIGN);
+
                         output.accept(ModBlocks.SIDEWALK_SIGN);
                         output.accept(ModBlocks.BUS_LANE_SIGN);
                         output.accept(ModBlocks.SNOW_CHAINS_REQUIRED_SIGN);
@@ -150,8 +154,8 @@ public class ModItemGroups {
                         output.accept(ModBlocks.GO_LEFT_OR_RIGHT_SIGN);
                         output.accept(ModBlocks.PASS_LEFT_SIGN);
                         output.accept(ModBlocks.PASS_RIGHT_SIGN);
-                        output.accept(ModBlocks.ROUNDABOUT_SIGN);
-                        output.accept(ModBlocks.ROUNDABOUT_FLIPPED_SIGN);
+                        output.accept(ModBlocks.ROUNDABOUT_CLOCKWISE_SIGN);
+                        output.accept(ModBlocks.ROUNDABOUT_COUNTER_CLOCKWISE_SIGN);
                         output.accept(ModBlocks.NO_LEFT_TURN_SIGN);
                         output.accept(ModBlocks.NO_RIGHT_TURN_SIGN);
                         output.accept(ModBlocks.NO_U_TURN_SIGN);
@@ -183,6 +187,8 @@ public class ModItemGroups {
                         output.accept(ModBlocks.ROAD_NARROWING_SIGN);
                         output.accept(ModBlocks.ROAD_NARROWING_LEFT_SIGN);
                         output.accept(ModBlocks.ROAD_NARROWING_RIGHT_SIGN);
+                        output.accept(ModBlocks.ROUNDABOUT_CLOCKWISE_WARNING_SIGN);
+                        output.accept(ModBlocks.ROUNDABOUT_COUNTER_CLOCKWISE_WARNING_SIGN);
                         output.accept(ModBlocks.WILD_ANIMALS_LEFT_SIGN);
                         output.accept(ModBlocks.WILD_ANIMALS_RIGHT_SIGN);
                         output.accept(ModBlocks.WILD_DINOSAURS_SIGN);
@@ -203,6 +209,8 @@ public class ModItemGroups {
                         output.accept(ModBlocks.GRITTY_ROAD_EDGE_SIGN);
                         output.accept(ModBlocks.TRAFFIC_JAMS_SIGN);
                         output.accept(ModBlocks.RIVERBANK_SIGN);
+
+                        output.accept(ModBlocks.SNIPER_AT_WORK_SIGN);
 
                         output.accept(ModBlocks.SMALL_SQUARE_SIGN);
                         output.accept(ModBlocks.PRIORITY_ROAD_LEFT_SIGN);
@@ -337,9 +345,36 @@ public class ModItemGroups {
 
                         output.accept(ModBlocks.TRAFFIC_CONE);
                         output.accept(ModBlocks.FIRE_HYDRANT);
+
                         output.accept(ModBlocks.TRAFFIC_LIGHT);
+                        output.accept(ModBlocks.TRAFFIC_LIGHT_LEFT);
+                        output.accept(ModBlocks.TRAFFIC_LIGHT_RIGHT);
+                        output.accept(ModBlocks.TRAFFIC_LIGHT_STRAIGHT);
+                        output.accept(ModBlocks.TRAFFIC_LIGHT_STRAIGHT_LEFT);
+                        output.accept(ModBlocks.TRAFFIC_LIGHT_STRAIGHT_RIGHT);
+
+                        output.accept(ModBlocks.TRAFFIC_LIGHT_GREEN_ARROW_LEFT);
+                        output.accept(ModBlocks.TRAFFIC_LIGHT_GREEN_ARROW_RIGHT);
+
+                        output.accept(ModBlocks.HORIZONTAL_TRAFFIC_LIGHT);
+
+                        output.accept(ModBlocks.SMALL_TRAFFIC_LIGHT);
+                        output.accept(ModBlocks.PEDESTRIAN_SIGNAL);
+
                         output.accept(ModBlocks.YELLOW_TRAFFIC_LIGHT);
+                        output.accept(ModBlocks.YELLOW_TRAFFIC_LIGHT_LEFT);
+                        output.accept(ModBlocks.YELLOW_TRAFFIC_LIGHT_RIGHT);
+                        output.accept(ModBlocks.YELLOW_TRAFFIC_LIGHT_STRAIGHT);
+                        output.accept(ModBlocks.YELLOW_TRAFFIC_LIGHT_STRAIGHT_LEFT);
+                        output.accept(ModBlocks.YELLOW_TRAFFIC_LIGHT_STRAIGHT_RIGHT);
+
+                        output.accept(ModBlocks.YELLOW_HORIZONTAL_TRAFFIC_LIGHT);
+
+                        output.accept(ModBlocks.JAPANESE_HORIZONTAL_TRAFFIC_LIGHT);
+
                         output.accept(ModBlocks.TRAFFIC_LIGHT_CONTROLLER);
+                        //output.accept(ModBlocks.VARIABLE_MESSAGE_SIGN);
+                        //output.accept(ModBlocks.VARIABLE_MESSAGE_SIGN_CONTROLLER);
                         output.accept(ModBlocks.SPEED_CAMERA);
                     }).build());
 
