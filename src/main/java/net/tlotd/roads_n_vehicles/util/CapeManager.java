@@ -26,8 +26,7 @@ public final class CapeManager {
     private static final String BASE_URL = "https://tlotd.net/api/minecraft/cape/";
     private static final ExecutorService EXECUTOR = Executors.newCachedThreadPool();
 
-    private CapeManager() {
-    }
+    private CapeManager() {}
 
     public static ClientAsset.Texture getCape(UUID uuid) {
         if (uuid == null) {

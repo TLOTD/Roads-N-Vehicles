@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "#roads-n-vehicles:iron_rods",
+  "result": {
+    "count": 1,
+    "id": "roads-n-vehicles:iron_rod_corner"
+  }
+}

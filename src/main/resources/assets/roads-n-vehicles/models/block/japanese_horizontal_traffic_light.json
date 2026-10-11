@@ -1,0 +1,6 @@
+{
+	"parent": "roads-n-vehicles:block/horizontal_traffic_light",
+	"textures": {
+		"base": "roads-n-vehicles:block/traffic_light/horizontal_base_jp"
+	}
+}
